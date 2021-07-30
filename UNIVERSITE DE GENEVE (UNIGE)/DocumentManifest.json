@@ -1,0 +1,59 @@
+{
+  "resourceType":"Bundle",
+  "id":"b79b614b-b6de-4c89-ab65-d043d8db8cbd",
+  "type":"searchset",
+  "total":1,
+  "link":[ {
+    "relation":"self",
+    "url":"http://fair4health-priv.unige.ch/fhir/DocumentManifest?_page=1"
+  } ],
+  "entry":[ {
+    "fullUrl":"http://fair4health-priv.unige.ch/fhir/DocumentManifest/b0d25a72-e217-4c27-9ea0-d921c6f89039",
+    "resource":{
+      "resourceType":"DocumentManifest",
+      "id":"b0d25a72-e217-4c27-9ea0-d921c6f89039",
+      "meta":{
+        "versionId":"1",
+        "lastUpdated":"2021-06-22T12:33:07.570Z"
+      },
+      "status":"current",
+      "created":"2021-06-22T12:32:58.393Z",
+      "author":[ {
+        "reference":"Device/data-curation-tool"
+      } ],
+      "content":[ {
+        "reference":"Provenance/8ed86a80-c6c1-4354-ae43-d9af29f4f326"
+      }, {
+        "reference":"Provenance/23c6ebe7-1531-49aa-a0f8-96aa647c7f45"
+      } ],
+      "related":[ {
+        "identifier":{
+          "value":"License"
+        },
+        "ref":{
+          "display":"CC BY-SA (Attribution-ShareAlike)",
+          "type":"https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      } ],
+      "extension":[ {
+        "url":"http://hl7.org/fhir/f4h/resource-count/Condition",
+        "valueInteger":1113
+      }, {
+        "url":"http://hl7.org/fhir/f4h/resource-count/Encounter",
+        "valueInteger":410
+      }, {
+        "url":"http://hl7.org/fhir/f4h/resource-count/MedicationStatement",
+        "valueInteger":2395
+      }, {
+        "url":"http://hl7.org/fhir/f4h/resource-count/Observation",
+        "valueInteger":2107
+      }, {
+        "url":"http://hl7.org/fhir/f4h/resource-count/Patient",
+        "valueInteger":398
+      } ]
+    },
+    "search":{
+      "mode":"match"
+    }
+  } ]
+}
