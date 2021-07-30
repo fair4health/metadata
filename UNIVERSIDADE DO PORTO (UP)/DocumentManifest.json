@@ -1,0 +1,78 @@
+{
+  "resourceType": "Bundle",
+  "id": "a4872753-b74b-42db-a9bf-ae402b43237a",
+  "type": "searchset",
+  "total": 1,
+  "link":
+  [
+    {
+      "relation": "self",
+      "url": "https://FHIR-REPO-HOST/fhir/DocumentManifest?_page=1"
+    }
+  ],
+  "entry":
+  [
+    {
+      "fullUrl": "https://FHIR-REPO-HOST/fhir/DocumentManifest/e91af69e-f14d-4ae7-8cd2-26c44dfc37a5",
+      "resource":
+      {
+        "resourceType": "DocumentManifest",
+        "id": "e91af69e-f14d-4ae7-8cd2-26c44dfc37a5",
+        "meta":
+        {
+          "versionId": "1",
+          "lastUpdated": "2021-07-13T09:56:04.811Z"
+        },
+        "status": "current",
+        "created": "2021-07-13T09:56:01.293Z",
+        "author":
+        [
+          {
+            "reference": "Device/data-curation-tool"
+          }
+        ],
+        "content":
+        [
+          {
+            "reference": "Provenance/edb1818d-4caa-42a0-849c-dd724ad673e2"
+          },
+          {
+            "reference": "Provenance/6d308596-36dc-4564-b318-d5994961577f"
+          },
+          {
+            "reference": "Provenance/1938ce04-fa51-431c-97f8-aa1239375538"
+          }
+        ],
+        "related":
+        [
+          {
+            "identifier":
+            {
+              "value": "License"
+            },
+            "ref":
+            {
+              "display": "CC BY-NC-ND (Attribution-NonCommercial-NoDerivs)",
+              "type": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+            }
+          }
+        ],
+        "extension":
+        [
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Observation",
+            "valueInteger": 11817
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Patient",
+            "valueInteger": 1313
+          }
+        ]
+      },
+      "search":
+      {
+        "mode": "match"
+      }
+    }
+  ]
+}
