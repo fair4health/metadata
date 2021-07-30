@@ -5,10 +5,10 @@
   "total":2,
   "link":[ {
     "relation":"self",
-    "url":"http://fair4health-priv.unige.ch/fhir/Provenance?_page=1"
+    "url":"http://FHIR-REPO-HOST/fhir/Provenance?_page=1"
   } ],
   "entry":[ {
-    "fullUrl":"http://fair4health-priv.unige.ch/fhir/Provenance/23c6ebe7-1531-49aa-a0f8-96aa647c7f45",
+    "fullUrl":"http://FHIR-REPO-HOST/fhir/Provenance/23c6ebe7-1531-49aa-a0f8-96aa647c7f45",
     "resource":{
       "resourceType":"Provenance",
       "id":"23c6ebe7-1531-49aa-a0f8-96aa647c7f45",
@@ -2892,7 +2892,7 @@
       "mode":"match"
     }
   }, {
-    "fullUrl":"http://fair4health-priv.unige.ch/fhir/Provenance/8ed86a80-c6c1-4354-ae43-d9af29f4f326",
+    "fullUrl":"http://FHIR-REPO-HOST/fhir/Provenance/8ed86a80-c6c1-4354-ae43-d9af29f4f326",
     "resource":{
       "resourceType":"Provenance",
       "id":"8ed86a80-c6c1-4354-ae43-d9af29f4f326",
