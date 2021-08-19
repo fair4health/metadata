@@ -1,0 +1,98 @@
+{
+  "resourceType": "Bundle",
+  "id": "795e7f08-eca3-4d88-aa3f-c5125d890225",
+  "type": "searchset",
+  "total": 1,
+  "link":
+  [
+    {
+      "relation": "self",
+      "url": "https://f4h.srdc.com.tr/ucsc-fhir/DocumentManifest?_page=1"
+    }
+  ],
+  "entry":
+  [
+    {
+      "fullUrl": "https://f4h.srdc.com.tr/ucsc-fhir/DocumentManifest/b66a97d3-bd0c-4d77-84e4-5750353d3c94",
+      "resource":
+      {
+        "resourceType": "DocumentManifest",
+        "id": "b66a97d3-bd0c-4d77-84e4-5750353d3c94",
+        "meta":
+        {
+          "versionId": "1",
+          "lastUpdated": "2021-08-02T11:16:57.312Z"
+        },
+        "status": "current",
+        "created": "2021-08-02T11:16:50.872Z",
+        "author":
+        [
+          {
+            "reference": "Device/data-curation-tool"
+          }
+        ],
+        "content":
+        [
+          {
+            "reference": "Provenance/2597d06b-0e72-4e3b-ad46-96a30b703acd"
+          },
+          {
+            "reference": "Provenance/5521c0a2-e50c-4315-9636-f711c24907d9"
+          },
+          {
+            "reference": "Provenance/6f7d9587-1223-4d8b-b0da-e99187be2c13"
+          },
+          {
+            "reference": "Provenance/f0ca99ba-7faf-44de-93f3-977398f43734"
+          },
+          {
+            "reference": "Provenance/da7f36da-274a-4515-94a8-5c748ad18a32"
+          },
+          {
+            "reference": "Provenance/2394b1e3-54da-460c-8803-9156b4736d0b"
+          },
+          {
+            "reference": "Provenance/2dd2aa62-fb95-4d98-a094-8dd794fcfc9d"
+          }
+        ],
+        "related":
+        [
+          {
+            "identifier":
+            {
+              "value": "License"
+            },
+            "ref":
+            {
+              "display": "CC BY-SA (Attribution-ShareAlike)",
+              "type": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+          }
+        ],
+        "extension":
+        [
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Condition",
+            "valueInteger": 1081
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/MedicationStatement",
+            "valueInteger": 28127
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Observation",
+            "valueInteger": 3150
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Patient",
+            "valueInteger": 1050
+          }
+        ]
+      },
+      "search":
+      {
+        "mode": "match"
+      }
+    }
+  ]
+}
