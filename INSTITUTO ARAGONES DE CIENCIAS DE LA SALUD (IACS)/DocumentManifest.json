@@ -1,0 +1,192 @@
+{
+  "resourceType": "Bundle",
+  "id": "158526bf-9335-487a-83cb-f2d220f2e303",
+  "type": "searchset",
+  "total": 1,
+  "link":
+  [
+    {
+      "relation": "self",
+      "url": "https://fair4health.iacs.es/fhir/DocumentManifest?_page=1"
+    }
+  ],
+  "entry":
+  [
+    {
+      "fullUrl": "https://fair4health.iacs.es/fhir/DocumentManifest/d4102bb0-52bb-4694-89e5-9d1d8c371312",
+      "resource":
+      {
+        "resourceType": "DocumentManifest",
+        "id": "d4102bb0-52bb-4694-89e5-9d1d8c371312",
+        "meta":
+        {
+          "versionId": "1",
+          "lastUpdated": "2021-06-18T12:19:45.600Z"
+        },
+        "status": "current",
+        "created": "2021-06-18T12:19:23.467Z",
+        "author":
+        [
+          {
+            "reference": "Device/data-curation-tool"
+          }
+        ],
+        "content":
+        [
+          {
+            "reference": "Provenance/b4bc9aaf-8f77-48c3-97b6-cb042d556c32"
+          },
+          {
+            "reference": "Provenance/18da3dcb-d01a-4f3c-9a54-34c30600cf22"
+          },
+          {
+            "reference": "Provenance/7ead6622-e772-4db9-b843-c35bd930cd30"
+          },
+          {
+            "reference": "Provenance/42f6ce65-c6e8-481e-87bb-f86631263ac3"
+          },
+          {
+            "reference": "Provenance/e5189682-e503-4a36-979c-ed4a9e54a7d5"
+          },
+          {
+            "reference": "Provenance/458c1f11-9a66-4a41-80e7-64082b5d390e"
+          },
+          {
+            "reference": "Provenance/a9c96e4e-2bbc-49ee-af2b-0cb2706a0505"
+          },
+          {
+            "reference": "Provenance/d0156d61-a8c9-4e29-836a-b7895d9e3cfe"
+          },
+          {
+            "reference": "Provenance/d8ccebb8-70a8-4307-a500-7bb00daeb291"
+          },
+          {
+            "reference": "Provenance/e18134f0-6693-432d-93ad-2877bcba4d85"
+          },
+          {
+            "reference": "Provenance/95661a4e-938b-46c4-9c61-d8ee937db106"
+          },
+          {
+            "reference": "Provenance/dda48ccd-ba97-43c7-8d3d-bba8f6ee30ed"
+          },
+          {
+            "reference": "Provenance/d83545f7-3abf-463b-bef2-23053529b5bf"
+          },
+          {
+            "reference": "Provenance/3235584a-8b55-4843-a372-03be5005d9e4"
+          },
+          {
+            "reference": "Provenance/723ea2ae-570a-4e00-a9ec-e03a5078195b"
+          },
+          {
+            "reference": "Provenance/4140592e-a819-4351-9513-e882946dbc82"
+          },
+          {
+            "reference": "Provenance/0339c443-d4db-4776-b07f-1cd589190a9b"
+          },
+          {
+            "reference": "Provenance/e4eb32fc-4857-4273-9029-3b1d16808019"
+          },
+          {
+            "reference": "Provenance/9b93d34d-bc09-4fcd-b27c-6aa9551d060e"
+          },
+          {
+            "reference": "Provenance/527a5d49-ec17-4648-8718-9117445f30fa"
+          },
+          {
+            "reference": "Provenance/d5d364a3-8a63-455b-8f1d-b0980913005d"
+          },
+          {
+            "reference": "Provenance/0c5933e8-67c8-40d8-921c-8a3a43f342ea"
+          },
+          {
+            "reference": "Provenance/3f2d32fe-2aed-4179-9bb1-f3cc673541bb"
+          },
+          {
+            "reference": "Provenance/19263199-5e30-41e1-8a3a-ac2b267e69d2"
+          },
+          {
+            "reference": "Provenance/288fbf2b-b06e-40f1-9944-75beff2501f3"
+          },
+          {
+            "reference": "Provenance/faca5eaa-1cfd-4324-afcb-3659d090a3d0"
+          },
+          {
+            "reference": "Provenance/4762d4f4-c69d-4cd7-980a-4779838e7985"
+          },
+          {
+            "reference": "Provenance/712cce79-9fb8-403b-b2ca-376d65d68359"
+          },
+          {
+            "reference": "Provenance/99086f5c-871c-45b5-b0e0-5d0211a0a6b9"
+          },
+          {
+            "reference": "Provenance/8bc02f27-5ee3-4ec3-99ec-5f7685e10a05"
+          },
+          {
+            "reference": "Provenance/f04b37d7-5f60-477d-847d-5c97957364c1"
+          },
+          {
+            "reference": "Provenance/71e54e5e-e51d-48c2-877f-bc3c368449a6"
+          },
+          {
+            "reference": "Provenance/b1fa77fd-f2b6-47c9-b582-eac26b904759"
+          },
+          {
+            "reference": "Provenance/9979f825-2b79-4f84-896b-ab5cba265132"
+          },
+          {
+            "reference": "Provenance/bebea220-bb12-48b2-bb9f-ce281bc4838b"
+          },
+          {
+            "reference": "Provenance/12ea2220-7804-49c0-9363-040f0bd5e43e"
+          },
+          {
+            "reference": "Provenance/9f92fb67-f543-4d0e-b1a4-b6f752fae1f4"
+          }
+        ],
+        "related":
+        [
+          {
+            "identifier":
+            {
+              "value": "License"
+            },
+            "ref":
+            {
+              "display": "CC BY-NC (Attribution-NonCommercial)",
+              "type": "https://creativecommons.org/licenses/by-nc/4.0/"
+            }
+          }
+        ],
+        "extension":
+        [
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Condition",
+            "valueInteger": 78040
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Encounter",
+            "valueInteger": 12106
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/MedicationStatement",
+            "valueInteger": 70880
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Observation",
+            "valueInteger": 11999
+          },
+          {
+            "url": "http://hl7.org/fhir/f4h/resource-count/Patient",
+            "valueInteger": 7622
+          }
+        ]
+      },
+      "search":
+      {
+        "mode": "match"
+      }
+    }
+  ]
+}
